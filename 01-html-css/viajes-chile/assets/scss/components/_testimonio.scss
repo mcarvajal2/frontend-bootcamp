@@ -1,0 +1,30 @@
+@use '../abstracts/variables';
+
+.container__testimonios{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimonio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    &__text{
+        font-weight: variables.$font-weight-regular;
+        font-size: 1rem;
+        font-style: oblique;
+    }
+    &__img{
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+    }
+    &__name{
+        font-weight: variables.$font-weight-bold;
+        font-size: 1rem;
+    }
+
+}

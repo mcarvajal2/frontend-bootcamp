@@ -1,0 +1,55 @@
+@use '../abstracts/variables';
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .container_navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            color: variables.$color-accent;
+            font-family: variables.$font-family;
+            text-decoration: none;
+
+            img {
+                margin-right: 10px;
+            }
+
+            span {
+                font-weight: variables.$font-weight-bold;
+            }
+        }
+
+        .navbar-toggler {
+            border: 1px solid variables.$color-accent;
+        }
+    }
+
+    .navbar-collapse {
+        background-color: transparent;
+        @media (max-width: 767px) {
+            background-color: variables.$color-mid-dark;
+        }
+    }
+
+    .navbar-nav {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+
+        .nav-item {
+            a {
+                font-weight: variables.$font-weight-bold;
+                color: variables.$color-accent;
+                font-family: variables.$font-family;
+            }
+        }
+    }
+}

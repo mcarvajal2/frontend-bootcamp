@@ -1,0 +1,21 @@
+@use '../abstracts/variables';
+
+.card{
+    border: 1px solid variables.$color-accent;
+}
+.card-body{
+    background-color: variables.$color-mid-dark;
+    border: 1px solid variables.$color-accent;
+    .titulo-card{
+        color: variables.$color-accent;
+        font-weight: variables.$font-weight-bold
+    }
+}
+.list-group{
+    .list-group-item{
+        background-color: variables.$color-mid-dark;
+        border: 1px solid variables.$color-accent;
+        color: variables.$color-accent;
+
+    }
+}

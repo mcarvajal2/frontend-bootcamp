@@ -1,0 +1,31 @@
+@use '../abstracts/variables';
+
+body {
+    font-family: variables.$font-family;
+    font-weight: variables.$font-weight-regular;
+    color: variables.$color-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: variables.$font-family;
+    font-weight: variables.$font-weight-bold;
+    color: variables.$color-accent;
+}
+
+p {
+    font-family: variables.$font-family;
+    font-weight: variables.$font-weight-regular;
+    color: variables.$color-light;
+}
+
+a {
+    font-family: variables.$font-family;
+    font-weight: variables.$font-weight-regular;
+    color: variables.$color-light;
+    text-decoration: none;
+}

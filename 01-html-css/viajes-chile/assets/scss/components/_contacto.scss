@@ -1,0 +1,30 @@
+@use '../abstracts/variables';
+
+.btn-submit{
+    background-color: variables.$color-mid-dark;
+    border: 1px solid variables.$color-accent;
+    color: variables.$color-accent;
+    font-weight: variables.$font-weight-bold;
+    padding: 0.5rem 2rem;
+}
+.form-control{
+    background-color: variables.$color-mid-dark;
+    border: 1px solid variables.$color-accent;
+    color: variables.$color-accent;
+    font-weight: variables.$font-weight-bold;
+}
+.etiqueta-form{
+    color: variables.$color-accent;
+    font-weight: variables.$font-weight-bold;
+}
+.form-check{
+    padding-left: 2rem;
+    color: variables.$color-accent;
+    font-weight: variables.$font-weight-bold;
+}
+.contact-icons{
+    a{
+        color: variables.$color-accent;
+        font-weight: variables.$font-weight-bold;
+    }
+}

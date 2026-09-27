@@ -1,0 +1,12 @@
+.carousel-item img {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+@media (min-width: 768px) {
+    .carousel-item img {
+        height: 500px;
+        border-radius: 2%;
+    }
+}
