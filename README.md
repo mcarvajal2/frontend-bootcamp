@@ -1,6 +1,6 @@
-# Fullstack Bootcamp Projects
+# Front-End Bootcamp Projects
 
-A curated collection of web development exercises, organized by learning module. Each project is self-contained and includes a short README with its stack and run instructions.
+Projects from the **Front-End Application Development Trainee** program by [Inforcap](https://www.inforcap.cl/) (2024), organized by learning module. Each project is self-contained and includes a short README with its stack and run instructions.
 
 ## Projects
 
@@ -31,9 +31,9 @@ MIT. See [LICENSE](LICENSE).
 
 ---
 
-# Proyectos Fullstack Bootcamp
+# Proyectos del Bootcamp Front-End
 
-Colección curada de ejercicios de desarrollo web, organizada por módulo de aprendizaje. Cada proyecto es independiente e incluye un README breve con su stack e instrucciones.
+Proyectos del programa **Desarrollo de Aplicaciones Front-End Trainee** de [Inforcap](https://www.inforcap.cl/) (2024), organizados por módulo de aprendizaje. Cada proyecto es independiente e incluye un README breve con su stack e instrucciones.
 
 ## Proyectos
 
