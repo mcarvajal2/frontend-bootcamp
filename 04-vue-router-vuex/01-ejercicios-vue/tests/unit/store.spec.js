@@ -1,3 +1,4 @@
+import { beforeEach, expect, test } from 'vitest';
 import store from '@/store';
 
 beforeEach(() => {

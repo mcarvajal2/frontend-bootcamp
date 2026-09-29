@@ -2,7 +2,7 @@
 
 Counter, routing and component communication exercises.
 
-**Stack:** Vue CLI, Vue Router, Vuex.
+**Stack:** Vite, Vue, Vue Router, Vuex, Vitest.
 
 ## Run
 
@@ -10,7 +10,7 @@ From this folder:
 
 ```sh
 npm install
-npm run serve
+npm run dev
 ```
 
-Build with `npm run build`.
+Build with `npm run build` and run unit tests with `npm run test:unit`.

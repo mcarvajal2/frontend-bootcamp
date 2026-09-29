@@ -1,4 +1,5 @@
 import { mount } from '@vue/test-utils';
+import { expect, test } from 'vitest';
 import CounterView from '@/views/CounterView.vue';
 import router from '@/router';
 import store from '@/store';
