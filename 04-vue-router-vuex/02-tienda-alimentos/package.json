@@ -2,9 +2,11 @@
   "name": "desafio-vue-router",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "vite",
+    "serve": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -12,8 +14,7 @@
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vitejs/plugin-vue": "^6.0.9",
+    "vite": "^8.3.1"
   }
 }

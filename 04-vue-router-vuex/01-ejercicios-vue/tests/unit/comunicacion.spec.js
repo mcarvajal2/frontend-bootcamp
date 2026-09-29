@@ -1,5 +1,6 @@
 // Importamos herramientas de pruebas y el componente Child
 import { mount } from '@vue/test-utils';
+import { expect, test } from 'vitest';
 import Child from '@/components/Child.vue';
 
 // Verifica que al hacer clic en el botón, se emite el texto ingresado
